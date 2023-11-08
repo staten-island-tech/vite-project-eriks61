@@ -1,0 +1,23 @@
+:root {
+  --dark-blue: #135cc5;
+  --orange: #ff7730;
+  --primary: var(--dark-blue);
+
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+}
+.warm {
+  --primary: var(--orange);
+}
+.cool {
+  --primary: var(--dark-blue);
+}
+body {
+  background-color: var(--primary);
+}
+h1 {
+  font-size: var(--h1);
+}
+.section-title {
+  font-size: var(--h1);
+}
