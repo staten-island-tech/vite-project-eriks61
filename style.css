@@ -1,7 +1,8 @@
 :root {
-  --dark-blue: #135cc5;
-  --orange: #ff7730;
-  --primary: var(--dark-blue);
+  --dark-blue: #00008B;
+  --light-blue: #add8e6;
+  --dark-orange: #ff8c00;
+  --yellow: #FFFF00;
 
   --h1: 7.594rem;
   --h2: 5.063rem;
