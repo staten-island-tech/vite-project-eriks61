@@ -1,6 +1,7 @@
-import "./style.css";
 
-const menuItem = [
+
+
+const menuItems = [
   {
     FoodName: "Scrambled Eggs",
     Price: 12,
@@ -121,3 +122,5 @@ const menuItem = [
     Cheap: true
   },
 ];
+
+export {menuItems};
