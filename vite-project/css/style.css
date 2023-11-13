@@ -22,3 +22,11 @@ h1 {
 .section-title {
   font-size: var(--h1);
 }
+
+#header {
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 4vh;
+  color: var(--light-blue);
+}
