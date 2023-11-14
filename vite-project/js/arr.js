@@ -1,6 +1,3 @@
-
-
-
 const menuItems = [
   {
     FoodName: "Scrambled Eggs",
@@ -120,6 +117,13 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Lunch",
     Cheap: true
+  },
+  {
+    FoodName: "Spanakopita",
+    Price: 34, 
+    GlutenFree: false,
+    Meal: "Lunch",
+    Cheap: false
   },
 ];
 
