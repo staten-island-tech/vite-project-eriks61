@@ -1,8 +1,8 @@
 import { menuItems } from "./arr.js";
 
-const cheap = menuItems.filter((menuItem)=> menuItem.Cheap = true).forEach((menuItem) => console.log(menuItem.FoodName));
+const cheap = menuItems.filter((menuItem)=> menuItem.Cheap = true)
 
-const Glutenfree = menuItems.filter((menuItem)=> menuItem.GlutenFree = true).forEach((menuItem) => console.log(menuItem.FoodName));
+const Glutenfree = menuItems.filter((menuItem)=> menuItem.GlutenFree = true)
 
 const DOMSelectors = {
     breakfast: document.getElementById("btn1"),
@@ -12,6 +12,15 @@ const DOMSelectors = {
     cheap: document.getElementById("btn5"),
 }
 
-DOMSelectors.general.addEventListener("click", function creategallery(){
-
-})
+DOMSelectors.cheap.addEventListener("click", function creategallery(){
+if (cheap = true) {
+const card = document.createElement("div");
+card.className = "boxy";
+card.innerHTML = `
+<h2 class="card-name">${menuItems.FoodName}</h2>
+<img src="${menuItems.Image}"class="card-image">
+<h3 class="card-meal">${menuItems.Meal}</h3>
+<h2 class="card-price>${menuItems.Price}</h2>
+`
+}
+});

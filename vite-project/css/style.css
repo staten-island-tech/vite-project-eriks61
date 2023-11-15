@@ -2,17 +2,22 @@
   --dark-blue: #00008B;
   --light-blue: #add8e6;
   --blue: #0000FF;
-  --dark-orange: #ff8c00;
+  --dark-orange: #cc5500;
   --yellow: #FFFF00;
+  --orange: #FFA550;
 
   --h1: 7.594rem;
   --h2: 5.063rem;
 }
 .warm {
   --primary: var(--orange);
+  --secondary: var(--yellow);
+  --tertiary: var(--orange);
 }
 .cool {
   --primary: var(--dark-blue);
+  --secondary: var(--light-blue);
+  --tertiary: var(--blue);
 }
 body {
   background-color: var(--primary);
@@ -25,42 +30,42 @@ h1 {
 }
 
 #header {
-  background-color: var(--dark-blue);
+  background-color: var(--primary);
   border-radius: 10px;
   text-align: center;
   font-size: 4vh;
-  color: var(--light-blue);
+  color: var(--secondary);
 }
 #btn1 {
-  background-color: var(--light-blue);
+  background-color: var(--secondary);
   height: 60px;
   width: 200px;
   font-size: 1.5rem;
   margin: 20px;
 }
 #btn2 {
-  background-color: var(--light-blue);
+  background-color: var(--secondary);
   height: 60px;
   width: 200px;
   font-size: 1.5rem;
   margin: 20px;
 }
 #btn3 {
-  background-color: var(--light-blue);
+  background-color: var(--secondary);
   height: 60px;
   width: 200px;
   font-size: 1.5rem;
   margin: 20px;
 }
 #btn4 {
-  background-color: var(--light-blue);
+  background-color: var(--secondary);
   height: 60px;
   width: 200px;
   font-size: 1.5rem;
   margin: 20px;
 }
 #btn5 {
-  background-color: var(--light-blue);
+  background-color: var(--secondary);
   height: 60px;
   width: 200px;
   font-size: 1.5rem;
@@ -73,11 +78,39 @@ h1 {
   padding: 20px;
 }
 body {
-  background-color: var(--blue);
+  background-color: var(--tertiary);
 }
 h6 {
   font-size: 0.9rem;
 }
 #text {
   font-size: 4rem;
+}
+.card-name {
+  text-align: center;
+}
+.card-image {
+  height: 40%;
+  width: 40%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-meal {
+  text-align: center;
+}
+.card-price {
+  text-align: center;
+}
+.boxy {
+  background-color: var(--secondary);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px;
+  border-radius: 2rem;
+  padding: 20px;
+  height: 40vh;
+  width: 40vh;
+  align-items: center;
+  flex-direction: row;
 }
