@@ -14,7 +14,5 @@ const DOMSelectors = {
 };
 
 DOMSelectors.breakfast.addEventListener("click", function creategallery() {
-menuItems.filter((menuItem) => menuItem.Meal === "Breakfast")
+  menuItems.filter((menuItem) => menuItem.Meal === "Breakfast");
 });
-
-
