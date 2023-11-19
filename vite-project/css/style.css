@@ -9,6 +9,16 @@
   --h1: 7.594rem;
   --h2: 5.063rem;
 }
+body.cool {
+  --primary: var(--dark-blue);
+  --secondary: var(--light-blue);
+  --tertiary: var(--blue);
+}
+body.warm {
+  --primary: var(--dark-orange);
+  --secondary: var(--yellow);
+  --tertiary: var(--orange);
+}
 .warm {
   --primary: var(--orange);
   --secondary: var(--yellow);

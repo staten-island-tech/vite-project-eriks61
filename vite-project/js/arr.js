@@ -5,7 +5,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Breakfast",
     Cheap: true,
-    Image: "../images/scrambled.jpg",
+    Image: "./images/scrambled.jpg",
   },
   {
     FoodName: "Ham Sandwich",
@@ -13,7 +13,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Lunch",
     Cheap: true,
-    Image: "../images/sandwich.jpg",
+    Image: "./images/sandwich.jpg",
   },
   {
     FoodName: "Ribeye Steak",
@@ -21,7 +21,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/ribeye.jpg",
+    Image: "./images/ribeye.jpg",
   },
   {
     FoodName: "Burger",
@@ -29,7 +29,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Lunch",
     Cheap: false,
-    Image: "../images/hamburger.jpg",
+    Image: "./images/hamburger.jpg",
   },
   {
     FoodName: "Chicken Sandwich",
@@ -37,7 +37,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Lunch",
     Cheap: true,
-    Image: "../images/chicksandwich.webp",
+    Image: "./images/chicksandwich.webp",
   },
   {
     FoodName: "Salmon",
@@ -45,7 +45,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/salmon.jpg",
+    Image: "./images/salmon.jpg",
   },
   {
     FoodName: "Lamb Chops",
@@ -53,7 +53,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/lambchop.jpg",
+    Image: "./images/lambchop.jpg",
   },
   {
     FoodName: "Lamb Gyro",
@@ -61,7 +61,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Lunch",
     Cheap: true,
-    Image: "../images/gyro.jpg",
+    Image: "./images/gyro.jpg",
   },
   {
     FoodName: "Pancakes",
@@ -69,7 +69,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Breakfast",
     Cheap: true,
-    Image: "../images/pancakes.jpg",
+    Image: "./images/pancakes.jpg",
   },
   {
     FoodName: "French Toast",
@@ -77,7 +77,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Breakfast",
     Cheap: false,
-    Image: "../images/breakfast.jpg",
+    Image: "./images/breakfast.jpg",
   },
   {
     FoodName: "English Breakfast",
@@ -85,7 +85,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Breakfast",
     Cheap: false,
-    Image: "../images/engbreakfast.jpg",
+    Image: "./images/engbreakfast.jpg",
   },
   {
     FoodName: "Sushi",
@@ -93,7 +93,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Lunch",
     Cheap: false,
-    Image: "../images/sushi.jpg",
+    Image: "./images/sushi.jpg",
   },
   {
     FoodName: "House Salad",
@@ -101,7 +101,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Lunch",
     Cheap: true,
-    Image: "../images/salad.jpg",
+    Image: "./images/salad.jpg",
   },
   {
     FoodName: "Seafood Platter",
@@ -109,7 +109,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/seafood.jpg",
+    Image: "./images/seafood.jpg",
   },
   {
     FoodName: "Beef Wellington",
@@ -117,7 +117,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/beef-wellington.jpg",
+    Image: "./images/beef-wellington.jpg",
   },
   {
     FoodName: "Chicken and Rice",
@@ -125,7 +125,7 @@ const menuItems = [
     GlutenFree: true,
     Meal: "Dinner",
     Cheap: false,
-    Image: "../images/chickrice.jpg",
+    Image: "./images/chickrice.jpg",
   },
   {
     FoodName: "Tacos",
@@ -133,7 +133,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Lunch",
     Cheap: true,
-    Image: "../images/tacos.jpg",
+    Image: "./images/tacos.jpg",
   },
   {
     FoodName: "Spanakopita",
@@ -141,7 +141,7 @@ const menuItems = [
     GlutenFree: false,
     Meal: "Lunch",
     Cheap: false,
-    Image: "../images/spanakopita.jpg",
+    Image: "./images/spanakopita.jpg",
   },
 ];
 
