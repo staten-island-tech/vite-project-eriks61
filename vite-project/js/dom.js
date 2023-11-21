@@ -65,18 +65,6 @@ DOMSelectors.cheap.addEventListener("click", () => {
   createGallery(cheaper);
 });
 
-function ChangeTheme(themeType) {
-  const root = document.documentElement;
-  if (themeType === "cool") {
-    root.style.setProperty("--primary", "var(--dark-blue)");
-    root.style.setProperty("--secondary", "var(--light-blue)");
-    root.style.setProperty("--tertiary", "var(--blue)");
-  } else if (themeType === "warm") {
-    root.style.setProperty("--primary", "var(--dark-orange)");
-    root.style.setProperty("--secondary", "var(--yellow)");
-    root.style.setProperty("--tertiary", "var(--orange)");
-  }
-}
 
 DOMSelectors.themeSwitch.addEventListener("click", () => {
   const currentTheme = document.body.classList.contains("cool")

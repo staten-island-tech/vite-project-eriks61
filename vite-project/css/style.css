@@ -105,16 +105,19 @@ h6 {
 }
 .card-name {
   text-align: center;
+  margin: 20px;
 }
 .card-image {
-  height: 40%;
-  width: 40%;
+  height: 60%;
+  width: 90%;
   background-size: cover;
-  background-position: center;
+  position: center;
   background-repeat: no-repeat;
+  margin: 20px;
 }
 .card-meal {
   text-align: center;
+  margin: 20px;
 }
 .card-price {
   text-align: center;
