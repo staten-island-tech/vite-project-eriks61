@@ -143,6 +143,22 @@ const menuItems = [
     Cheap: false,
     Image: "./images/spanakopita.jpg",
   },
+  {
+    FoodName: "Chicken Soup",
+    Price: 50,
+    GlutenFree: false,
+    Meal: "Dinner",
+    Cheap: false,
+    Image: "./images/chicksoup.jpg",
+  },
+  {
+    FoodName: "Cookie",
+    Price: 176,
+    GlutenFree: false,
+    Meal: "Dinner",
+    Cheap: false,
+    Image: "./images/cookie.webp",
+  },
 ];
 
 export { menuItems };
