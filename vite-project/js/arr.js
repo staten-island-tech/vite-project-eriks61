@@ -73,10 +73,10 @@ const menuItems = [
   },
   {
     FoodName: "French Toast",
-    Price: 21,
+    Price: 19,
     GlutenFree: false,
     Meal: "Breakfast",
-    Cheap: false,
+    Cheap: true,
     Image: "./images/breakfast.jpg",
   },
   {
