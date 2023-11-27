@@ -9,28 +9,35 @@ const DOMSelectors = {
   themeSwitch: document.getElementById("btn6"),
 };
 
+
 function createGallery(menuItems) {
   DOMSelectors.gallery.innerHTML = "";
+
 
   menuItems.forEach((menuItem) => {
     const card = document.createElement("div");
     card.classList.add("boxy");
 
+
     const image = document.createElement("div");
     image.style.backgroundImage = `url(${menuItem.Image})`;
     image.classList.add("card-image");
+
 
     const name = document.createElement("div");
     name.textContent = menuItem.FoodName;
     name.classList.add("card-name");
 
+
     const meal = document.createElement("div");
     meal.textContent = menuItem.Meal;
     meal.classList.add("card-meal");
 
+
     const price = document.createElement("div");
     price.textContent = `$${menuItem.Price}`;
     price.classList.add("card-price");
+
 
     card.appendChild(image);
     card.appendChild(name);
@@ -39,6 +46,7 @@ function createGallery(menuItems) {
     DOMSelectors.gallery.appendChild(card);
   });
 }
+
 
 DOMSelectors.breakfast.addEventListener("click", () => {
   const breakfaster = menuItems.filter(
@@ -66,8 +74,12 @@ DOMSelectors.cheap.addEventListener("click", () => {
 });
 
 
+
+
 DOMSelectors.themeSwitch.addEventListener("click", () => {
-  const currentTheme = document.body.classList.contains("cool") ? "warm" : "cool";
+  const currentTheme = document.body.classList.contains("cool")
+    ? "warm"
+    : "cool";
   document.body.classList.toggle("cool");
   document.body.classList.toggle("warm");
   setTheme(currentTheme);
