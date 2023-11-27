@@ -67,9 +67,7 @@ DOMSelectors.cheap.addEventListener("click", () => {
 
 
 DOMSelectors.themeSwitch.addEventListener("click", () => {
-  const currentTheme = document.body.classList.contains("cool")
-    ? "warm"
-    : "cool";
+  const currentTheme = document.body.classList.contains("cool") ? "warm" : "cool";
   document.body.classList.toggle("cool");
   document.body.classList.toggle("warm");
   setTheme(currentTheme);
