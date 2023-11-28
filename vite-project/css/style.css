@@ -1,5 +1,3 @@
-
-
 :root {
   --dark-blue: #00008b;
   --light-blue: #add8e6;
@@ -7,7 +5,6 @@
   --dark-orange: #cc5500;
   --yellow: #ffff00;
   --orange: #ffa550;
-
 
   --h1: 7.594rem;
   --h2: 5.063rem;
@@ -41,7 +38,6 @@ h1 {
 .section-title {
   font-size: var(--h1);
 }
-
 
 #header {
   background-color: var(--primary);
@@ -138,7 +134,3 @@ h6 {
   align-items: center;
   flex-direction: row;
 }
-
-
-
-
