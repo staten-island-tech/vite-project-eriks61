@@ -7,6 +7,7 @@ const DOMSelectors = {
   cheap: document.getElementById("btn5"),
   gallery: document.getElementById("card-container"),
   themeSwitch: document.getElementById("btn6"),
+  buttons: document.querySelectorAll(".butys")
 };
 
 function createGallery(menuItems) {
@@ -40,7 +41,35 @@ function createGallery(menuItems) {
   });
 }
 
-DOMSelectors.breakfast.addEventListener("click", () => {
+let buttons = document.querySelectorAll(".butys")
+buttons.forEach((button) => buttons.addEventListener("click",
+
+menuItems.forEach((menuItem) => {
+  if (menuItem.FoodName === filter) {
+    createGallery(menuItem)
+  } }
+  ) ))
+
+/* 
+let buttons = document.querySelectorAll(".butys")
+buttons.forEach((button) => buttons.addEventListener("click", 
+
+function (){
+
+
+menuItems.filter((menuItem) => menuItem.Meal.includes(filter)).forEach((menuItem)=> createGallery(menuItem))
+
+
+})) 
+
+use this?
+
+DOMSelectors.cheap.addEventListener("click", () => {
+  const cheaper = menuItems.filter((menuItem) => menuItem.Cheap === true);
+  createGallery(cheaper);
+});*/
+
+/*DOMSelectors.breakfast.addEventListener("click", () => {
   const breakfaster = menuItems.filter(
     (menuItem) => menuItem.Meal === "Breakfast"
   );
@@ -64,7 +93,7 @@ DOMSelectors.cheap.addEventListener("click", () => {
   const cheaper = menuItems.filter((menuItem) => menuItem.Cheap === true);
   createGallery(cheaper);
 });
-
+*/
 DOMSelectors.themeSwitch.addEventListener("click", () => {
   const currentTheme = document.body.classList.contains("cool")
     ? "warm"
